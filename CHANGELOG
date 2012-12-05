@@ -1,0 +1,10 @@
+
+
+0.9
+
+The constants +rdf-...+ and +rdfs-...+ are now DEFVARs. Clozure CL
+highlighted an issue with the serialization of URI objects.  It
+appeared to be compliant with the standard, and that there wasn't any
+very feasible workaround that kept the values as DEFCONSTANTs.  They
+still have the same names (surrounded by +'s) and should not be
+modified.
